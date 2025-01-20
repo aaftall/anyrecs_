@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://i.ibb.co/92tJv6p/logo-2-black.png" media="(prefers-color-scheme: light)" />
+    <link rel="icon" href="https://i.ibb.co/w0Ljj12/logo-2-white.png" media="(prefers-color-scheme: dark)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>AppSquad</title>
+    <style>
+      @media (prefers-color-scheme: dark) {
+      }
+      @media (prefers-color-scheme: light) {
+      }
+    </style>
+    <script>
+      // Only load Unami in production
+      if (window.location.hostname === 'app.appsquad.com') {
+        var script = document.createElement('script');
+        // script.src = 'TODO';
+        script.defer = true;
+        // script.setAttribute('data-website-id', 'TODO');
+        document.head.appendChild(script);
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
